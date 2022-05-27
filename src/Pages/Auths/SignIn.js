@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Banner = () => {
+const SignIn = () => {
     return (
      <h2>SignIn</h2>   
     );
