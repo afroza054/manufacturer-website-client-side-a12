@@ -10,7 +10,7 @@ const Reviews = () => {
     data: reviews,
     refetch,
   } = useQuery('reviews', () =>
-    fetch(`http://localhost:8888/reviews`).then((res) => res.json())
+    fetch(`https://minatools.herokuapp.com/reviews`).then((res) => res.json())
   );
 
   if (isLoading) {

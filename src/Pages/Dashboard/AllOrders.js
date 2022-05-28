@@ -9,7 +9,7 @@ const AllOrders = () => {
     refetch,
     isLoading,
   } = useQuery("allorders", () =>
-    fetch("http://localhost:8888/allorder", {
+    fetch("https://minatools.herokuapp.com/allorder", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
