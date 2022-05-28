@@ -93,7 +93,7 @@ function App() {
               </RequireAdmin>
             }
           />
-        </Route>
+        {/* </Route> */}
         <Route path="signup" element={<SignUp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

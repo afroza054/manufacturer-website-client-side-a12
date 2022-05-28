@@ -7,9 +7,9 @@ const Portfolio = () => {
       <PageTitle title={'Protfolio'}></PageTitle>
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-3xl font-bold uppercase">Md Delowar Hossen</h1>
+          <h1 className="text-3xl font-bold uppercase">Mina</h1>
           <p>
-            <b>Email: </b>delowarhossen1224@gmail.com
+            <b>Email: </b>afrozajabin4@gmail.com
           </p>
           <h3 className="text-xl font-bold uppercase mt-3">Skill</h3>
           <div className="divide divide-x-2"></div>
